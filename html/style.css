@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'Lino';
+    src: url("https://cdn.nxtstudio.net/fonts/Redemption.ttf");
+}
+
+@font-face {
+    font-family: 'Hapna';
+    src: url("https://cdn.nxtstudio.net/fonts/Hapna.ttf");
+}
+
+* {
+    font-family: 'Hapna';
+    margin: 0;
+    padding: 0;
+    text-shadow: 0px 0px 0px black;
+    overflow: hidden;
+}
+
+.div-wrap {
+    display: block;
+    margin-left: 0.8%;
+    width: 30%;
+    height: 15%;
+    margin-top: 26.5%;
+    color: white;
+    padding: 1px;
+}
+
+.notification-bg {
+    position: absolute;
+
+    background: url('./background.png');
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+    text-align: center;
+    border-radius: 4px;
+    padding: 14px 16px 14px 16px;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1.5;
+    display: inline-block;
+    left: -20%;
+}
+
+.strokeme {
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
